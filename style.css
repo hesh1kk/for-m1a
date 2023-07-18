@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #B8860B;
+
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+.button {
+    font: inherit;
+
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color:white;
+    border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: white;
+}
+
+.flex-container {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color: black;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    background-color: #B8860B;
+}
+
+.advantages-list {
+    list-style: none;
+}
+
+.advantages-item {
+    text-align: center;
+}
+
+.advantages-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.index-columns {
+    position: relative;
+    color: #B8860B;
+    background-image: url("/images/bg2.jpg");
+    background-size: 2120px 750px;
+}
+
+.index-columns h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.appointment-form input {
+    font: inherit;
+    color:white;
+
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.appointment-form input:focus {
+    border-color: black;
+}
+
+.main-footer {
+    height: 250px;
+    width: auto;
+    color: #B8860B;
+
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.footer-social a {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+    text-decoration: none;
+}
+
+.footer-rules a {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer-rules a:hover,
+.footer-rules a:focus {
+    text-decoration: none;
+}
+
+.site-navigation {
+   display: flex;
+   list-style: none;
+   flex-direction: column;
+   padding: 0;
+   margin: 0;
+}
+
+.user-navigation {
+    width: 140px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+li {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.right-part {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 10px;
+}
+
+.slideshow-item {
+    flex: 1 1 auto;
+    height: 500px;
+    overflow: 1;
+}
+
+.appointment-form {
+  width: 300px; 
+  position: relative;
+  left: 1700px;
+  bottom: 150px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.left-part {
+   display: flex;
+   justify-content: space-between; 
+}
+
+.advantages {
+    position: relative;
+    text-align: center;
+}
+
+.link1 {
+  float: left;
+  width: auto;
+}
+
+.link2 {
+  float: right;
+  width: auto;
+}
+
+.link1 ul,
+.link2 ul {
+  list-style-type: disc;
+}
+
+.a-columns {
+  position: relative;
+  left: 400px;
+}
